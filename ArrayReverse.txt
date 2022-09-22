@@ -1,0 +1,16 @@
+1.var arrayUtil = new ArrayUtil();
+var a1 = new Array("a", "b", "c", "c", "b");
+gs.print(arrayUtil.unique(a1));
+
+2.AutosysFields;
+
+  var gr = new GlideRecord("incident");
+gr.query();
+
+ if(gr.next())
+{
+
+gr.autoSysFields(false);
+short_description = "demo ";
+gr.update();
+}
